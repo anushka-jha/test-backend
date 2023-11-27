@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 const API_URL =
   "https://xdwvg9no7pefghrn.us-east-1.aws.endpoints.huggingface.cloud";
 const API_KEY =
-  "VknySbLLTUjbxXAXCjyfaFIPwUTCeRXbFSOjwRiCxsxFyhbnGjSFalPKrpvvDAaPVzWEevPljilLVDBiTzfIbWFdxOkYJxnOPoHhkkVGzAknaOulWggusSFewzpqsNWM"; // Replace with your actual API key
+  "VknySbLLTUjbxXAXCjyfaFIPwUTCeRXbFSOjwRiCxsxFyhbnGjSFalPKrpvvDAaPVzWEevPljilLVDBiTzfIbWFdxOkYJxnOPoHhkkVGzAknaOulWggusSFewzpqsNWM"; 
 
 app.post("/generate-comic", async (req, res) => {
   try {
